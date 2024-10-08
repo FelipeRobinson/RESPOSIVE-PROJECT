@@ -1,5 +1,6 @@
 :root {
-    --fundo: linear-gradient(to bottom, #00b5bb 0%, #004fbeef 40%, #d8efff 85%);
+    --fundo: rgb(210, 210, 210);
+    --cor-nav: rgb(70, 99, 230);
 }
 
 body {
@@ -9,6 +10,11 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
-    background-color: blue;
+nav {
+    background-color: var(--cor-nav);
 }
+
+#logo {
+    width: 100px;
+}
+
